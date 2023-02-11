@@ -1,0 +1,351 @@
+<div class="dx-overlay-content dx-popup-normal dx-resizable" style="width: 60px;height: 485px;z-index: 1501;left: 0px;top: 0px;transform: translate(10px, 174px);transition: none 0s ease 0s;visibility: visible;opacity: 1;">
+   <div class="dx-popover-arrow" style="inset: 215.5px 0px auto auto;"></div>
+   <div class="dx-popup-content" style="height: 483px; max-height: none; min-height: auto;">
+      <div class="dx-template-wrapper">
+         <up-event-popup-view class="event-popup-view ng-star-inserted" ng-reflect-color="#28AFA5" ng-reflect-event="[object Object]">
+            <up-event-popup-generic-view class="event-popup-generic-view" ng-reflect-color="#28AFA5" ng-reflect-display-hash="false">
+               <div class="event-popup__container" ng-reflect-ng-style="[object Object]" style="height: 100%;">
+                  <div class="event-popup__top" ng-reflect-ng-style="[object Object]" ng-reflect-ng-class="[object Object]" style="background-color: white;">
+                     <div class="event-popup__top-actions">
+                        <div headeractions="" class="row no-gutters">
+                           <div class="col-12 text-right">
+                              <button type="button" class="event-popup__top-actionsbtn ng-star-inserted"><i class="material-icons">edit</i></button><!--bindings={
+                                 "ng-reflect-ng-if": "true"
+                                 }--><button type="button" class="event-popup__top-actionsbtn"><i class="material-icons">close</i></button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="event-popup__headercontainer">
+                        <div class="event-popup__header" ng-reflect-ng-style="[object Object]" style="border-color: rgb(40, 175, 165);">
+                           <div header="">
+                              <div ng-reflect-ng-switch="Appointment">
+                                 <div class="ng-star-inserted">
+                                    <div class="ng-star-inserted">
+                                       <div class="event-popup__patientrow">
+                                          <div class="row no-gutters align-items-center mb-2">
+                                             <div class="upscheduler__popup-icon">
+                                                <!--bindings={
+                                                   "ng-reflect-ng-if": "false"
+                                                   }-->
+                                             </div>
+                                             <span class="upscheduler__popup-name" ng-reflect-ng-class="[object Object]">Alex Test</span>
+                                             <up-patient-flags class="patient-flags ng-star-inserted" ng-reflect-patient-id="10721" ng-reflect-display-only="true">
+                                                <div id="infoFlag">
+                                                   <span class="patient-flags__flag"><i class="icon material-icons red">outlined_flag</i></span>
+                                                   <dx-popover target="#infoFlag" class="patient-flags-popover dx-overlay dx-popup dx-popover dx-widget dx-state-invisible dx-visibility-change-handler" ng-reflect-target="#infoFlag" ng-reflect-show-title="false" ng-reflect-show-close-button="false">
+                                                      <div class="dx-overlay-content dx-popup-normal" aria-hidden="true" style="width: auto; height: auto;">
+                                                         <div class="dx-popover-arrow"></div>
+                                                         <div class="dx-popup-content"></div>
+                                                      </div>
+                                                   </dx-popover>
+                                                </div>
+                                             </up-patient-flags>
+                                             <!--bindings={
+                                                "ng-reflect-ng-if": "true"
+                                                }--><!--ng-container--><!--bindings={
+                                                "ng-reflect-ng-if": "[object Object]"
+                                                }--><!--bindings={
+                                                "ng-reflect-ng-if": "false"
+                                                }-->
+                                          </div>
+                                          <div class="ng-star-inserted"><a href="javascript:void(0)" class="event-popup__link event-popup__link--open"> Open Patient File</a></div>
+                                          <!--bindings={
+                                             "ng-reflect-ng-if": "true"
+                                             }--><!--ng-container-->
+                                       </div>
+                                    </div>
+                                    <!--bindings={
+                                       "ng-reflect-ng-if": "[object Object]"
+                                       }--><!--bindings={
+                                       "ng-reflect-ng-template-outlet": "[object Object]"
+                                       }-->
+                                 </div>
+                                 <!--bindings={
+                                    "ng-reflect-ng-switch-case": "Appointment"
+                                    }--><!--container-->
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="event-popup__content">
+                     <dx-scroll-view class="dx-scrollable dx-scrollview dx-visibility-change-handler dx-scrollable-vertical dx-scrollable-simulated dx-scrollable-customizable-scrollbars">
+                        <div class="dx-scrollable-wrapper">
+                           <div class="dx-scrollable-container" tabindex="0">
+                              <div class="dx-scrollable-content" style="left: 0px; top: 0px; transform: none;">
+                                 <div class="dx-scrollview-top-pocket">
+                                    <div class="dx-scrollview-pull-down dx-state-invisible">
+                                       <div class="dx-scrollview-pull-down-image"></div>
+                                       <div class="dx-scrollview-pull-down-indicator">
+                                          <div class="dx-loadindicator dx-widget">
+                                             <div class="dx-loadindicator-wrapper">
+                                                <div class="dx-loadindicator-content">
+                                                   <div class="dx-loadindicator-icon">
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment7"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment6"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment5"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment4"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment3"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment2"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment1"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment0"></div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="dx-scrollview-pull-down-text">
+                                          <div class="dx-scrollview-pull-down-text-visible">Pull down to refresh...</div>
+                                          <div>Release to refresh...</div>
+                                          <div>Refreshing...</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="dx-scrollview-content">
+                                    <div content="">
+                                       <div>
+                                          <div ng-reflect-ng-switch="Appointment">
+                                             <div class="ng-star-inserted">
+                                                <div class="event-popup__evcontent ng-star-inserted">
+                                                   <div class="upscheduler__popup-row">
+                                                      <mat-icon role="img" svgicon="service" class="mat-icon notranslate mat-icon-no-color" aria-hidden="true" ng-reflect-svg-icon="service" data-mat-icon-type="svg" data-mat-icon-name="service">
+                                                         <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                                                            <mask id="path-1-inside-1" fill="white">
+                                                               <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8774 9.5H25.0197C25.5622 9.5 26.002 9.93975 26.002 10.4822V12H13.8952V10.4822C13.8952 9.93975 14.335 9.5 14.8774 9.5ZM12.3952 10.4822C12.3952 9.11132 13.5066 8 14.8774 8H25.0197C26.3906 8 27.502 9.11132 27.502 10.4822V12V12.1379H29C31.2091 12.1379 33 13.9288 33 16.1379V28C33 30.2091 31.2091 32 29 32H11C8.79086 32 7 30.2091 7 28V16.1379C7 13.9288 8.79086 12.1379 11 12.1379H12.3952V12V10.4822ZM11 13.6379H29C30.3807 13.6379 31.5 14.7572 31.5 16.1379V28C31.5 29.3807 30.3807 30.5 29 30.5H11C9.61929 30.5 8.5 29.3807 8.5 28V16.1379C8.5 14.7572 9.61929 13.6379 11 13.6379Z"></path>
+                                                            </mask>
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8774 9.5H25.0197C25.5622 9.5 26.002 9.93975 26.002 10.4822V12H13.8952V10.4822C13.8952 9.93975 14.335 9.5 14.8774 9.5ZM12.3952 10.4822C12.3952 9.11132 13.5066 8 14.8774 8H25.0197C26.3906 8 27.502 9.11132 27.502 10.4822V12V12.1379H29C31.2091 12.1379 33 13.9288 33 16.1379V28C33 30.2091 31.2091 32 29 32H11C8.79086 32 7 30.2091 7 28V16.1379C7 13.9288 8.79086 12.1379 11 12.1379H12.3952V12V10.4822ZM11 13.6379H29C30.3807 13.6379 31.5 14.7572 31.5 16.1379V28C31.5 29.3807 30.3807 30.5 29 30.5H11C9.61929 30.5 8.5 29.3807 8.5 28V16.1379C8.5 14.7572 9.61929 13.6379 11 13.6379Z" fill="white"></path>
+                                                            <path d="M26.002 12V13.5H27.502V12H26.002ZM13.8952 12H12.3952V13.5H13.8952V12ZM27.502 12.1379H26.002V13.6379H27.502V12.1379ZM12.3952 12.1379V13.6379H13.8952V12.1379H12.3952ZM25.0197 8H14.8774V11H25.0197V8ZM27.502 10.4822C27.502 9.11132 26.3906 8 25.0197 8V11C24.7338 11 24.502 10.7682 24.502 10.4822H27.502ZM27.502 12V10.4822H24.502V12H27.502ZM13.8952 13.5H26.002V10.5H13.8952V13.5ZM12.3952 10.4822V12H15.3952V10.4822H12.3952ZM14.8774 8C13.5066 8 12.3952 9.11133 12.3952 10.4822H15.3952C15.3952 10.7682 15.1634 11 14.8774 11V8ZM14.8774 6.5C12.6781 6.5 10.8952 8.2829 10.8952 10.4822H13.8952C13.8952 9.93975 14.335 9.5 14.8774 9.5V6.5ZM25.0197 6.5H14.8774V9.5H25.0197V6.5ZM29.002 10.4822C29.002 8.2829 27.2191 6.5 25.0197 6.5V9.5C25.5622 9.5 26.002 9.93975 26.002 10.4822H29.002ZM29.002 12V10.4822H26.002V12H29.002ZM29.002 12.1379V12H26.002V12.1379H29.002ZM29 10.6379H27.502V13.6379H29V10.6379ZM34.5 16.1379C34.5 13.1004 32.0376 10.6379 29 10.6379V13.6379C30.3807 13.6379 31.5 14.7572 31.5 16.1379H34.5ZM34.5 28V16.1379H31.5V28H34.5ZM29 33.5C32.0376 33.5 34.5 31.0376 34.5 28H31.5C31.5 29.3807 30.3807 30.5 29 30.5V33.5ZM11 33.5H29V30.5H11V33.5ZM5.5 28C5.5 31.0376 7.96243 33.5 11 33.5V30.5C9.61929 30.5 8.5 29.3807 8.5 28H5.5ZM5.5 16.1379V28H8.5V16.1379H5.5ZM11 10.6379C7.96243 10.6379 5.5 13.1004 5.5 16.1379H8.5C8.5 14.7572 9.61929 13.6379 11 13.6379V10.6379ZM12.3952 10.6379H11V13.6379H12.3952V10.6379ZM10.8952 12V12.1379H13.8952V12H10.8952ZM10.8952 10.4822V12H13.8952V10.4822H10.8952ZM29 12.1379H11V15.1379H29V12.1379ZM33 16.1379C33 13.9288 31.2091 12.1379 29 12.1379V15.1379C29.5523 15.1379 30 15.5856 30 16.1379H33ZM33 28V16.1379H30V28H33ZM29 32C31.2091 32 33 30.2091 33 28H30C30 28.5523 29.5523 29 29 29V32ZM11 32H29V29H11V32ZM7 28C7 30.2091 8.79086 32 11 32V29C10.4477 29 10 28.5523 10 28H7ZM7 16.1379V28H10V16.1379H7ZM11 12.1379C8.79086 12.1379 7 13.9288 7 16.1379H10C10 15.5856 10.4477 15.1379 11 15.1379V12.1379Z" fill="#48647C" mask="url('/#path-1-inside-1')"></path>
+                                                            <mask id="path-3-inside-2" fill="white">
+                                                               <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4 16.2759C18.2954 16.2759 17.4 17.1713 17.4 18.2759V19.5862H15.9333C14.8287 19.5862 13.9333 20.4816 13.9333 21.5862L13.9333 22.5517C13.9333 23.6563 14.8287 24.5517 15.9333 24.5517H17.4V25.8621C17.4 26.9666 18.2954 27.8621 19.4 27.8621H20.6C21.7046 27.8621 22.6 26.9666 22.6 25.8621V24.5517H24.0667C25.1712 24.5517 26.0667 23.6563 26.0667 22.5517V21.5862C26.0667 20.4816 25.1712 19.5862 24.0666 19.5862H22.6V18.2759C22.6 17.1713 21.7046 16.2759 20.6 16.2759H19.4Z"></path>
+                                                            </mask>
+                                                            <path d="M17.4 19.5862V21.0862H18.9V19.5862H17.4ZM13.9333 21.5862H15.4333H13.9333ZM13.9333 22.5517H12.4333H13.9333ZM17.4 24.5517H18.9V23.0517H17.4V24.5517ZM22.6 24.5517V23.0517H21.1V24.5517H22.6ZM22.6 19.5862H21.1V21.0862H22.6V19.5862ZM18.9 18.2759C18.9 17.9997 19.1239 17.7759 19.4 17.7759V14.7759C17.467 14.7759 15.9 16.3429 15.9 18.2759H18.9ZM18.9 19.5862V18.2759H15.9V19.5862H18.9ZM15.9333 21.0862H17.4V18.0862H15.9333V21.0862ZM15.4333 21.5862C15.4333 21.3101 15.6572 21.0862 15.9333 21.0862V18.0862C14.0003 18.0862 12.4333 19.6532 12.4333 21.5862H15.4333ZM15.4333 22.5517V21.5862H12.4333V22.5517H15.4333ZM15.9333 23.0517C15.6572 23.0517 15.4333 22.8279 15.4333 22.5517H12.4333C12.4333 24.4847 14.0003 26.0517 15.9333 26.0517V23.0517ZM17.4 23.0517H15.9333V26.0517H17.4V23.0517ZM18.9 25.8621V24.5517H15.9V25.8621H18.9ZM19.4 26.3621C19.1239 26.3621 18.9 26.1382 18.9 25.8621H15.9C15.9 27.7951 17.467 29.3621 19.4 29.3621V26.3621ZM20.6 26.3621H19.4V29.3621H20.6V26.3621ZM21.1 25.8621C21.1 26.1382 20.8762 26.3621 20.6 26.3621V29.3621C22.533 29.3621 24.1 27.7951 24.1 25.8621H21.1ZM21.1 24.5517V25.8621H24.1V24.5517H21.1ZM24.0667 23.0517H22.6V26.0517H24.0667V23.0517ZM24.5667 22.5517C24.5667 22.8279 24.3428 23.0517 24.0667 23.0517V26.0517C25.9996 26.0517 27.5667 24.4847 27.5667 22.5517H24.5667ZM24.5667 21.5862V22.5517H27.5667V21.5862H24.5667ZM24.0666 21.0862C24.3428 21.0862 24.5667 21.3101 24.5667 21.5862H27.5667C27.5667 19.6532 25.9996 18.0862 24.0666 18.0862V21.0862ZM22.6 21.0862H24.0666V18.0862H22.6V21.0862ZM21.1 18.2759V19.5862H24.1V18.2759H21.1ZM20.6 17.7759C20.8762 17.7759 21.1 17.9997 21.1 18.2759H24.1C24.1 16.3429 22.533 14.7759 20.6 14.7759V17.7759ZM19.4 17.7759H20.6V14.7759H19.4V17.7759Z" fill="#48647C" mask="url('/#path-3-inside-2')"></path>
+                                                         </svg>
+                                                      </mat-icon>
+                                                      <span>Service with CCPE</span>
+                                                   </div>
+                                                   <div class="upscheduler__popup-row">
+                                                      <mat-icon role="img" svgicon="time" class="mat-icon notranslate mat-icon-no-color" aria-hidden="true" ng-reflect-svg-icon="time" data-mat-icon-type="svg" data-mat-icon-name="time">
+                                                         <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                                                            <circle cx="20" cy="20" r="12.1333" stroke="#48647C" stroke-width="1.73333"></circle>
+                                                            <path d="M20 13.5V18.2734V22.5052L23.7917 24.3333" stroke="#48647C" stroke-width="1.73333"></path>
+                                                         </svg>
+                                                      </mat-icon>
+                                                      <!--bindings={
+                                                         "ng-reflect-ng-if": "false"
+                                                         }--><span class="ng-star-inserted"> Jul 25,&nbsp;12:30 AM - Jul 25,&nbsp;12:35 AM </span><!--bindings={
+                                                         "ng-reflect-ng-if": "true"
+                                                         }--><!--bindings={
+                                                         "ng-reflect-ng-if-else": "[object Object]"
+                                                         }--><!--container--><!--bindings={
+                                                         "ng-reflect-ng-template-outlet": "[object Object]"
+                                                         }-->
+                                                   </div>
+                                                   <div class="upscheduler__popup-row ng-star-inserted">
+                                                      <mat-icon role="img" svgicon="practitioner-outlined" class="mat-icon notranslate mat-icon-no-color" aria-hidden="true" ng-reflect-svg-icon="practitioner-outlined" data-mat-icon-type="svg" data-mat-icon-name="practitioner-outlined">
+                                                         <svg width="100%" height="100%" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                                                            <circle cx="21" cy="13.2222" r="6.22222" stroke="#48647C" stroke-width="2"></circle>
+                                                            <path d="M7 30.6667C7 26.8008 10.134 23.6667 14 23.6667H28C31.866 23.6667 35 26.8008 35 30.6667V32.7779H7V30.6667Z" stroke="#48647C" stroke-width="2"></path>
+                                                         </svg>
+                                                      </mat-icon>
+                                                      <span>John Smith</span>
+                                                   </div>
+                                                   <!--ng-container--><!--bindings={
+                                                      "ng-reflect-ng-if-else": "[object Object]"
+                                                      }--><!--container-->
+                                                   <div class="upscheduler__popup-row">
+                                                      <mat-icon role="img" svgicon="location" class="mat-icon notranslate mat-icon-no-color" aria-hidden="true" ng-reflect-svg-icon="location" data-mat-icon-type="svg" data-mat-icon-name="location">
+                                                         <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                                                            <path d="M32 17.2727C32 21.6215 29.0096 25.8033 25.7941 29.0076C24.2106 30.5855 22.6233 31.8763 21.4304 32.7731C20.8375 33.2188 20.3441 33.5656 20 33.8003C19.6559 33.5656 19.1625 33.2188 18.5696 32.7731C17.3767 31.8763 15.7894 30.5855 14.2059 29.0076C10.9904 25.8033 8 21.6215 8 17.2727C8 14.3022 9.24944 11.4408 11.4941 9.32175C13.7407 7.20083 16.7994 6 20 6C23.2006 6 26.2593 7.20083 28.5059 9.32175C30.7506 11.4408 32 14.3022 32 17.2727Z" stroke="#48647C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M23.3334 17.2727C23.3334 18.9263 21.896 20.3636 20 20.3636C18.1041 20.3636 16.6667 18.9263 16.6667 17.2727C16.6667 15.6191 18.1041 14.1818 20 14.1818C21.896 14.1818 23.3334 15.6191 23.3334 17.2727Z" stroke="#48647C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                         </svg>
+                                                      </mat-icon>
+                                                      <span>Room 1, Test Location Alabama</span>
+                                                   </div>
+                                                   <!--bindings={}-->
+                                                   <div class="upscheduler__popup-row">
+                                                      <mat-icon role="img" class="mat-icon notranslate mat-icon-no-color" aria-hidden="true" ng-reflect-svg-icon="appointment-status-accepted" data-mat-icon-type="svg" data-mat-icon-name="appointment-status-accepted">
+                                                         <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                                                            <path d="M25.8188 17.8156V10.7881C25.8188 9.21541 24.5439 7.94049 22.9712 7.94049H10.8476C9.27492 7.94049 8 9.21541 8 10.7881V25.7837C8 27.3564 9.27492 28.6313 10.8476 28.6313H15.4245" stroke="#48647C" stroke-width="1.3" stroke-linecap="round"></path>
+                                                            <path d="M11.9597 19.2264H17.8993" stroke="#48647C" stroke-width="1.73333" stroke-linecap="round"></path>
+                                                            <path d="M11.9597 14.5239H15.9194" stroke="#48647C" stroke-width="1.73333" stroke-linecap="round"></path>
+                                                            <path d="M11.9597 8.88098L11.9597 7" stroke="#48647C" stroke-width="1.73333" stroke-linecap="round"></path>
+                                                            <path d="M16.9094 8.88098L16.9094 7" stroke="#48647C" stroke-width="1.73333" stroke-linecap="round"></path>
+                                                            <path d="M21.8591 8.88098L21.8591 7" stroke="#48647C" stroke-width="1.73333" stroke-linecap="round"></path>
+                                                            <ellipse cx="25.0705" cy="26.4166" rx="6.92953" ry="6.58343" fill="#48647C"></ellipse>
+                                                            <path d="M22.2987 26.8868L23.8826 28.3916L27.8423 24.6296" stroke="white" stroke-width="0.990476"></path>
+                                                         </svg>
+                                                      </mat-icon>
+                                                      <span> Accepted </span>
+                                                   </div>
+                                                   <div class="upscheduler__popup-row">
+                                                      <mat-icon role="img" class="mat-icon notranslate mat-icon-no-color" aria-hidden="true" ng-reflect-svg-icon="insurance" data-mat-icon-type="svg" data-mat-icon-name="insurance">
+                                                         <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                                                            <path d="M20 32C20 32 30 27 30 19.5V10.75C30 10.75 25.5 10.5 20 7C15 10.5 10 10.75 10 10.75V19.5C10 27 20 32 20 32Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M25.586 17.2854L25.586 17.2856C25.7194 17.2951 25.8449 17.3526 25.9394 17.4474C26.0338 17.5422 26.0908 17.6679 26.0998 17.8014L26.1002 17.8081H26.1L26.1 21.1939C26.1 21.194 26.1 21.1941 26.1 21.1942V21.1943H26C26.0002 21.2499 25.9894 21.305 25.9683 21.3563C25.9471 21.4077 25.9159 21.4544 25.8766 21.4937C25.8373 21.533 25.7907 21.5642 25.7393 21.5853C25.6879 21.6065 25.6328 21.6173 25.5772 21.6171L25.586 17.2854ZM25.586 17.2854H25.5789M25.586 17.2854H25.5789M25.5789 17.2854H22.7171M25.5789 17.2854H22.7171M15.2607 17.4163L15.2226 17.3238C15.2862 17.2977 15.3543 17.2843 15.423 17.2846M15.2607 17.4163L15.4232 17.2846C15.4231 17.2846 15.423 17.2846 15.423 17.2846M15.2607 17.4163L15.2226 17.3238C15.1591 17.35 15.1013 17.3886 15.0526 17.4372C15.004 17.4858 14.9655 17.5436 14.9393 17.6072C14.9131 17.6707 14.8998 17.7388 14.9 17.8075M15.2607 17.4163L14.9 17.8075M15.423 17.2846H18.2854M15.423 17.2846H18.2854M18.2854 17.2846V14.423V14.4228H18.3854L18.2854 17.2846ZM14.9 17.8075V21.1925M14.9 17.8075L15.4232 21.7154L15.4228 21.6154V21.7154H15.423C15.3543 21.7157 15.2862 21.7023 15.2226 21.6762C15.1591 21.65 15.1013 21.6114 15.0526 21.5628C15.004 21.5142 14.9655 21.4564 14.9393 21.3928C14.9131 21.3293 14.8998 21.2612 14.9 21.1925M14.9 21.1925V21.1927H15L14.9 21.1923C14.9 21.1924 14.9 21.1924 14.9 21.1925ZM18.2846 21.7154V24.577M18.2846 21.7154L18.8077 25.1L18.8073 25V25.1H18.8074C18.7388 25.1002 18.6707 25.0869 18.6072 25.0607C18.5436 25.0345 18.4858 24.996 18.4372 24.9474C18.3886 24.8987 18.35 24.841 18.3238 24.7774C18.2977 24.7138 18.2843 24.6458 18.2846 24.577M18.2846 21.7154H18.3846L18.2846 21.6154V21.7154ZM18.2846 24.577V24.5772H18.3846L18.2846 24.5768C18.2846 24.5769 18.2846 24.577 18.2846 24.577ZM22.7171 17.2854L22.7171 14.4232C22.7171 14.4231 22.7171 14.4231 22.7171 14.423V14.4228V17.2854ZM22.1941 13.9H18.8083H18.8081H22.1941ZM22.1941 13.9H22.1943V14L22.1941 13.9ZM19.005 20.71L18.9669 20.8025L21.7707 21.1935H21.6707V21.1938C21.6707 21.1938 21.6707 21.1938 21.6707 21.1939L21.6707 24.0553H19.3276L19.3276 21.1939L19.2276 21.1935H19.3276V21.1938C19.3279 21.125 19.3145 21.0569 19.2884 20.9934C19.2622 20.9298 19.2236 20.872 19.175 20.8234C19.1264 20.7747 19.0686 20.7362 19.005 20.71ZM21.8461 18.1783L21.9168 18.1076L18.8081 18.2276C18.8637 18.2279 18.9188 18.2171 18.9702 18.1959C19.0216 18.1747 19.0682 18.1436 19.1075 18.1043C19.1469 18.065 19.178 18.0183 19.1992 17.9669C19.2203 17.9155 19.2311 17.8605 19.2309 17.8049H19.3309V17.8046C19.3309 17.8046 19.3309 17.8045 19.3309 17.8045L19.3309 14.9463H21.6935L21.6935 17.8077L21.7935 17.8081H21.6935V17.8079C21.6932 17.8766 21.7066 17.9447 21.7328 18.0083C21.759 18.0719 21.7975 18.1296 21.8461 18.1783ZM21.8234 20.8234L21.8941 20.8941L22.1939 20.6707L22.1935 20.7707V20.6707H22.1938C22.125 20.6705 22.0569 20.6838 21.9934 20.71C21.9298 20.7362 21.872 20.7747 21.8234 20.8234ZM25.0789 20.6707V20.7707H25.1789V20.6707H25.0789ZM25.1789 18.2309V18.3309H25.0789V18.2309H25.1789ZM22.2166 18.3309L22.2163 18.2309V18.3309L22.2166 18.3309Z" fill="black" stroke="black" stroke-width="0.2"></path>
+                                                         </svg>
+                                                      </mat-icon>
+                                                      <span>None</span>
+                                                   </div>
+                                                   <!--bindings={
+                                                      "ng-reflect-ng-if": "false"
+                                                      }--><!--bindings={
+                                                      "ng-reflect-ng-if": "false"
+                                                      }--><!--ng-container--><!--bindings={
+                                                      "ng-reflect-ng-if": "false"
+                                                      }-->
+                                                   <div class="upscheduler__popup-row ng-star-inserted">
+                                                      <mat-icon role="img" svgicon="forms" class="mat-icon notranslate mat-icon-no-color" aria-hidden="true" ng-reflect-svg-icon="forms" data-mat-icon-type="svg" data-mat-icon-name="forms">
+                                                         <svg width="100%" height="100%" viewBox="0 0 41 40" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 7H23.5L31 14.5V29.5C31 30.875 29.875 32 28.5 32H13.4875C12.1125 32 11 30.875 11 29.5L11.0125 9.5C11.0125 8.125 12.125 7 13.5 7ZM13.4996 9.49991V29.4999H28.4996V15.7499H22.2496V9.49991H13.4996Z"></path>
+                                                         </svg>
+                                                      </mat-icon>
+                                                      <span>Forms&nbsp;</span><span class="event-popup__forms-status partially-completed" ng-reflect-ng-class="partially-completed"> partially completed</span>
+                                                   </div>
+                                                   <!--bindings={
+                                                      "ng-reflect-ng-if": "PartiallyCompleted"
+                                                      }--><!--bindings={}--><!--ng-container--><!--bindings={
+                                                      "ng-reflect-ng-if": "[object Object]"
+                                                      }-->
+                                                   <div class="ml-1 mt-2 ng-star-inserted">
+                                                      <div class="upscheduler__popup-row ng-star-inserted">
+                                                         <div class="upscheduler__popup-row-info">
+                                                            <div class="upscheduler__popup-row-infotitle"><strong>Booked:</strong></div>
+                                                            <div class="upscheduler__popup-row-infores">
+                                                               <span>Jul 25, 2022, 4:49:22 AM</span><span class="ng-star-inserted">by  John Smith</span><!--bindings={
+                                                                  "ng-reflect-ng-if": " John Smith"
+                                                                  }--><span class="ng-star-inserted">in EHR.</span><!--bindings={
+                                                                  "ng-reflect-ng-if": "true"
+                                                                  }-->
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                      <!--bindings={
+                                                         "ng-reflect-ng-if": "Mon Jul 25 2022 04:49:22 GMT+0"
+                                                         }-->
+                                                      <div class="upscheduler__popup-row ng-star-inserted">
+                                                         <div class="upscheduler__popup-row-info ng-star-inserted">
+                                                            <div class="upscheduler__popup-row-infotitle"><strong>Updated:</strong></div>
+                                                            <div class="upscheduler__popup-row-infores">
+                                                               <span>Jul 25, 2022, 4:49:22 AM</span><span class="ng-star-inserted">by  John Smith</span><!--bindings={
+                                                                  "ng-reflect-ng-if": " John Smith"
+                                                                  }--><span class="ng-star-inserted">in EHR.</span><!--bindings={
+                                                                  "ng-reflect-ng-if": "true"
+                                                                  }-->
+                                                            </div>
+                                                         </div>
+                                                         <!--bindings={
+                                                            "ng-reflect-ng-if-else": "[object Object]"
+                                                            }--><!--container-->
+                                                      </div>
+                                                      <!--bindings={
+                                                         "ng-reflect-ng-if": "Mon Jul 25 2022 04:49:22 GMT+0"
+                                                         }-->
+                                                   </div>
+                                                   <!--bindings={
+                                                      "ng-reflect-ng-if": "[object Object]"
+                                                      }--><!--bindings={
+                                                      "ng-reflect-ng-template-outlet": "[object Object]"
+                                                      }-->
+                                                </div>
+                                                <!--bindings={
+                                                   "ng-reflect-ng-template-outlet": "[object Object]"
+                                                   }-->
+                                             </div>
+                                             <!--bindings={
+                                                "ng-reflect-ng-switch-case": "Appointment"
+                                                }--><!--bindings={
+                                                "ng-reflect-ng-switch-case": "TimeOff"
+                                                }--><!--bindings={
+                                                "ng-reflect-ng-switch-case": "ReservedRoom"
+                                                }-->
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="dx-scrollview-bottom-pocket">
+                                    <div class="dx-scrollview-scrollbottom dx-state-invisible">
+                                       <div class="dx-scrollview-scrollbottom-indicator">
+                                          <div class="dx-loadindicator dx-widget">
+                                             <div class="dx-loadindicator-wrapper">
+                                                <div class="dx-loadindicator-content">
+                                                   <div class="dx-loadindicator-icon">
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment7"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment6"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment5"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment4"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment3"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment2"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment1"></div>
+                                                      <div class="dx-loadindicator-segment dx-loadindicator-segment0"></div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="dx-scrollview-scrollbottom-text">Loading...</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="dx-scrollable-scrollbar dx-widget dx-scrollbar-vertical dx-scrollbar-hoverable" style="display: none;">
+                                 <div class="dx-scrollable-scroll dx-state-invisible" style="height: 356px; transform: translate(0px, 0px);">
+                                    <div class="dx-scrollable-scroll-content"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="dx-scrollview-loadpanel dx-overlay dx-widget dx-state-invisible dx-visibility-change-handler dx-loadpanel">
+                           <div class="dx-overlay-content" aria-hidden="true" style="width: 222px; height: 90px;"></div>
+                        </div>
+                     </dx-scroll-view>
+                  </div>
+                  <div class="event-popup__footer">
+                     <div footer="">
+                        <div class="ng-star-inserted">
+                           <div class="ng-star-inserted">
+                              <div class="row no-gutters justify-content-between ng-star-inserted" style="flex-direction: row; box-sizing: border-box; display: flex;">
+                                 <!--bindings={
+                                    "ng-reflect-ng-if": "false"
+                                    }-->
+                                 <div fxflex="100%" fxlayoutgap="16px" fxlayoutgap.gt-sm="0" fxlayout="column" fxlayout.gt-sm="row" ng-reflect-fx-layout="column" ng-reflect-fx-layout.gt-sm="row" ng-reflect-fx-layout-gap="16px" ng-reflect-fx-layout-gap.gt-sm="0" ng-reflect-fx-flex="100%" style="flex-direction: column; box-sizing: border-box; display: flex; flex: 1 1 100%; max-width: 100%;">
+                                    <div fxflex="100%" fxlayoutalign="start start" ng-reflect-fx-layout-align="start start" ng-reflect-fx-flex="100%" style="margin-bottom: 16px; place-content: flex-start; align-items: flex-start; flex-direction: row; box-sizing: border-box; display: flex; flex: 1 1 100%; max-height: 100%;">
+                                       <dx-button class="o-button o-button--cancel event-popup__footer-action dx-button dx-button-normal dx-button-mode-contained dx-widget dx-button-has-text ng-star-inserted" ng-reflect-text="Cancel Appointment" role="button" aria-label="Cancel Appointment" tabindex="0">
+                                          <div class="dx-button-content"><span class="dx-button-text">Cancel Appointment</span></div>
+                                       </dx-button>
+                                       <!--bindings={
+                                          "ng-reflect-ng-if": "true"
+                                          }-->
+                                    </div>
+                                    <div fxflex="100%" fxlayoutalign="start start" fxlayoutalign.gt-sm="end end" ng-reflect-fx-layout-align="start start" ng-reflect-fx-layout-align.gt-sm="end end" ng-reflect-fx-flex="100%" style="place-content: flex-start; align-items: flex-start; flex-direction: row; box-sizing: border-box; display: flex; flex: 1 1 100%; max-height: 100%;">
+                                       <!--bindings={
+                                          "ng-reflect-ng-if": "false"
+                                          }--><!--bindings={
+                                          "ng-reflect-ng-if": "false"
+                                          }-->
+                                    </div>
+                                 </div>
+                              </div>
+                              <!--bindings={
+                                 "ng-reflect-ng-if": "[object Object]"
+                                 }--><!--bindings={
+                                 "ng-reflect-ng-template-outlet": "[object Object]"
+                                 }-->
+                           </div>
+                           <!--bindings={
+                              "ng-reflect-ng-switch-case": "Appointment"
+                              }-->
+                        </div>
+                        <!--bindings={
+                           "ng-reflect-ng-if": "true"
+                           }--><!--ng-container-->
+                     </div>
+                  </div>
+               </div>
+            </up-event-popup-generic-view>
+            <!--container--><!--container--><!--container--><!--container--><!--container--><!--container--><!--container--><!--container--><!--container-->
+         </up-event-popup-view>
+         <!--bindings={
+            "ng-reflect-ng-if": "[object Object]"
+            }-->
+      </div>
+   </div>
+</div>

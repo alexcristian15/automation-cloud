@@ -1,0 +1,14 @@
+
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": ["es6", "dom"],
+      "types": ["cypress", "cypress-wait-until"],
+
+
+    },
+    "include": [
+      "../../node_modules/cypress",
+      "cypress/*/*.ts"
+    ]
+  }
