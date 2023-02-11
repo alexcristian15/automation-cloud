@@ -15,5 +15,8 @@
     "debug": "^4.3.4",
     "perfecto-cypress-sdk": "^0.0.57",
     "unique-names-generator": "^4.7.1"
+  },
+    "scripts": {
+    "start": "node index.js"
   }
 }
