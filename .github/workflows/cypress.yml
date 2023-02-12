@@ -31,3 +31,10 @@ jobs:
           env:
             CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+        - name: Upload MP4 files
+          uses: actions/upload-artifact@v2
+          with:
+            name: mp4-files
+            path: mp4_files
+
