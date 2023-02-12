@@ -5,6 +5,7 @@ module.exports = defineConfig({
 })
 
 export default defineConfig({
+  testFiles: 'cypress/e2e/Tests/*.spec.ts',
   pageLoadTimeout: 140000,
   e2e: {
     // We've imported your old cypress plugins here.
