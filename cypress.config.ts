@@ -1,5 +1,9 @@
 import { defineConfig } from 'cypress'
 
+module.exports = defineConfig({
+  projectId: 'uwh4c5',
+})
+
 export default defineConfig({
   pageLoadTimeout: 140000,
   e2e: {
