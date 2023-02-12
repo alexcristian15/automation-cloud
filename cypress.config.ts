@@ -5,7 +5,7 @@ module.exports = defineConfig({
 })
 
 export default defineConfig({
-  testFiles: 'cypress/e2e/Tests/*.spec.ts',
+  testFiles: 'automation-cloud/cypress/e2e/Tests/*.spec.ts',
   pageLoadTimeout: 140000,
   e2e: {
     // We've imported your old cypress plugins here.
@@ -14,6 +14,6 @@ export default defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
     },
     supportFile: false,
-    specPattern: 'cypress/e2e/**/*.spec.ts',
+    specPattern: 'automation-cloud/cypress/e2e/**/*.spec.ts',
   },
 })
